@@ -75,6 +75,7 @@ function UserProfileAddAddress() {
   };
 
   const addHandler = () => {
+    //validations
     if (!personalInformation.trim()) {
       alert("Please provide the personal information");
     } else if (!address.trim()) {
